@@ -819,7 +819,7 @@ function App() {
           <div className="source-actions">
             {pdfUrl && (
               <a 
-                href={pdfUrl.url}
+                href={`${pdfUrl.url}#page=${pdfUrl.page}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="source-action-btn"
